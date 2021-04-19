@@ -20,7 +20,7 @@ function setup() {
   Engine.run(engine);
   world = engine.world;
 
-  ground = new Ground(240, 785, 500, 15);
+  ground = new Ground(240, 590, 500, 15);
 
   for (var k = 0; k <= width; k = k + 80){
     divisions.push(new Divisions(k, height-divisionHeight/2, 10, divisionHeight));
